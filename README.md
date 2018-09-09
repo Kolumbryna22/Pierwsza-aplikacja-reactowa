@@ -1,4 +1,6 @@
-# Poprawa-istniejacej-aplikacji### to instal packages run:
+# Poprawa-istniejacej-aplikacji
+
+### to instal packages run:
 ```sh
 $ npm install
 ```
