@@ -21,7 +21,7 @@ var movies = [
 
 var MovieItem = React.createClass({
     propTypes: {
-        movie: React.propTypes.object.isRequired,
+        movie: React.PropTypes.object.isRequired,
     },
 
     render: function() {
