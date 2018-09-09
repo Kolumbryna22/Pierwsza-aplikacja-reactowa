@@ -19,12 +19,22 @@ var movies = [
     },
 ];
 
+var MovieItem = React.createClass({
+    propTypes: {
+        movie: React.propTypes.object.isRequired,
+    },
+
+    render: function() {
+        return React.createElement('li', {key: this.props.movie.id},
+            React.createElement('h2', {}, this.props.movie.title),
+            React.createElement('p', {}, this.props.movie.desc),
+            React.createElement('img', {src: this.props.movie.image})
+        );
+    },
+});
+
 var moviesElements = movies.map(function(movie) {
-    return React.createElement('li', {key: movie.id},
-        React.createElement('h2', {}, movie.title),
-        React.createElement('p', {}, movie.desc),
-        React.createElement('img', {src: movie.image})
-    );
+    return React.createElement(MovieItem, {movie: movie});
 });
 
 var element = 

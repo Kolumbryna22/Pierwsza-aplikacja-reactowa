@@ -1,29 +1,9 @@
-body {
-  text-align: center;
-}
+body { text-align: center; }
 
-h1 {
-  padding-bottom: 40px;
-}
+h1 { padding-bottom: 40px; }
 
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
+ul { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0; padding: 0; list-style-type: none; }
 
-li {
-  width: 340px;
-  margin: 0 auto 20px;
-  padding: 15px;
-  border: 1px solid black;
-}
+li { width: 340px; margin: 0 auto 20px; padding: 15px; border: 1px solid black; }
 
-img {
-  width: 320px;
-  height: 180px;
-}
-
-/*# sourceMappingURL=style.css.map */
+img { width: 320px; height: 180px; }
