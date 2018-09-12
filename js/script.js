@@ -1,3 +1,5 @@
+(function() {
+    
 var movies = [
     {
         id: 1,
@@ -44,3 +46,5 @@ var element =
     );
 
 ReactDOM.render(element, document.getElementById('app'));
+
+})();
